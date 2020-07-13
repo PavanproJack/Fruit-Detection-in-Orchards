@@ -1,6 +1,6 @@
 # Fruit Detection in Orchards -- (Latest Updates go first)
 
-####  Yolo-v5 Object detection model ---  Update : 11th July 2020  
+####  Yolo-v5 Object detection model ---  Update : 12th July 2020  
 
 Here are some insights I gathered after testing:
 
