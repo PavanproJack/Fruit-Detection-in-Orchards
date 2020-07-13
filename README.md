@@ -14,7 +14,7 @@ The following augmentation was applied to create 3 versions of each source image
 * Random shear of between -7° to +7° horizontally and -31° to +31° vertically
 * Random exposure adjustment of between -25 and +25 percent
 
-<img src = "Straight Line Trajectory.png" width = "300">  <img src = "Free motion Trajectory.png" width = "300"> 
+<img src = "/Detection Results/Yolov4.gif" width = "300">  <img src = "/Detection Results/Yolov5.gif" width = "300"> 
 
 ####  Yolo-v4-tiny Object detection model ---  Update : 30th June 2020   
 
