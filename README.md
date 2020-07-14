@@ -1,7 +1,7 @@
 # Fruit Detection in Orchards -- (Latest Updates go first)
 
 
-# 13th July 2020 
+#### 13th July 2020 
 |Title	 |    Architectures Used |	Data Augmentation Techniques |	Evaluation of Detection Performance |	Graphs Plotted | Results   
 |-------|--------|---------|--------|---------| ---------|
 | Deep Fruit Detection in Orchards | Faster R-CNN |Tiling approach FR-CNN |	Image Flipping and Rescaling| 	Average Precision Response Area under Precision Recall Curve, F1-score	Avg.Precision vs  Number of Training images|	F1 score > 0.9; Precision = 0.958; Recall = 0.863|
