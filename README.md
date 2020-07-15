@@ -1,6 +1,25 @@
 # Fruit Detection in Orchards -- (Latest Updates go first)
 
 
+#### 15th July 2020
+### Yolo v4 Again
+3800 iteration: Best mAP recorded :
+
+class_id = 0, name = Mangos, ap = 71.84%   	 (TP = 604, FP = 168) 
+
+for conf_thresh = 0.25, precision = 0.78, recall = 0.68, F1-score = 0.73 
+
+for conf_thresh = 0.25, TP = 604, FP = 168, FN = 281, average IoU = 57.06 % 
+
+IoU threshold = 50 %, used Area-Under-Curve for each unique Recall 
+
+mean average precision (mAP@0.50) = 0.718374, or 71.84 % 
+
+
+
+
+
+
 #### 13th July 2020 
 |Title	 |    Architectures Used |	Data Augmentation Techniques |	Evaluation of Detection Performance |	Graphs Plotted | Results   
 |-------|--------|---------|--------|---------| ---------|
