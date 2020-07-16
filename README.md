@@ -2,14 +2,17 @@
 
 
 #### 15th July 2020
-### Yolo-v4-tiny again
+### Yolo-v4-tiny with Data Augmentation
 
 At around 5500 iteration mAP
 
-<img src = "Yolov4-tiny/Augmented-tiny/Yolov4-tiny-aug-16jul-Chart.png" width = "400">  
+<img src = "Yolov4-tiny/Augmented-tiny/Yolo-v4-tiny-aug-16jul.png" width = "400"> 
+
+<img src = "Yolov4-tiny/Augmented-tiny/Yolov4-tiny-aug-16jul-Chart.png" width = "400"> 
+
 
 #### 15th July 2020
-### Yolo v4 Again
+### Yolo v4 with Data Augmentation
 3800 iteration: Best mAP recorded :
 
 class_id = 0, name = Mangos, ap = 71.84%   	 (TP = 604, FP = 168) 
@@ -34,7 +37,7 @@ mean average precision (mAP@0.50) = 0.718374, or 71.84 %
 | Fast implementation of real-time fruit detection in apple orchards usingdeep learning | LedNet	|Two level scale amplification |	Average Precision Response, IoU, Precision, Recall|	Focal Loss and MSE functions vs Object confidence Score|	Recall = 0.821; Accuracy = 0.853|
 
 
-####  Yolo-v5 Object detection model ---  Update : 12th July 2020  
+####  Yolo-v5 model with Data Augmentation ---  Update : 12th July 2020  
 
 Here are some insights I gathered after testing:
 
@@ -48,11 +51,11 @@ Yolo v4 tiny detections to the left and that of Yolov5 to the right.
 
 <img src = "/Detection Results/Yolov5s-results.png" width = "800">  
 
-####  Yolo-v4-tiny Object detection model ---  Update : 30th June 2020   
+####  Yolo-v4-tiny without Data Augmentation ---  Update : 30th June 2020   
 
 <img src = "/Detection Results/Yolov4-tiny results.png" width = "800"> 
 
-#### Yolo-v4  Object detection model ---  Update : 28th June 2020   
+#### Yolo-v4  without Data Augmentation ---  Update : 28th June 2020   
 
  
 
