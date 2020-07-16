@@ -2,6 +2,12 @@
 
 
 #### 15th July 2020
+### Yolo-v4-tiny again
+
+At around 5500 iteration mAP
+<img src = "Yolov4-tiny/Augmented-tiny/Yolov4-tiny-aug-16jul-Chart.png" width = "400">  
+
+#### 15th July 2020
 ### Yolo v4 Again
 3800 iteration: Best mAP recorded :
 
