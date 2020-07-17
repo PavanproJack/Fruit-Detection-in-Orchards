@@ -1,5 +1,16 @@
 # Fruit Detection in Orchards -- (Latest Updates go first)
 
+#### 15th July 2020
+### Yolo-v5 with more training data.
+After 100 Epochs:
+
+<img src = "Yolov5/Aug_results/Results.png" width = "800">
+
+<img src = "Yolov5/Aug_results/metrics.png" width = "600">
+
+<img src = "Yolov5/Aug_results/train_results.png" width = "600">
+
+<img src = "Yolov5/Aug_results/val_results.png" width = "600">
 
 #### 15th July 2020
 ### Yolo-v4-tiny with Data Augmentation
