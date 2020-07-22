@@ -42,13 +42,13 @@ The following augmentation was applied to create 3 versions of each source image
 
 Trained with Yolov5s architecture.
 
-| Parameters	| Yolov5(100 epochs) 	| 	Yolov4-tiny()	| 	Yolov4 (3800 iterations only)		| Faster RCNN
-|-------|--------|---------|--------|---------|
-| mAP@0.50		|  >0.85		| 0.6146	| 	0.72	| 		| 
-| Precision	| 	≈  0.6	| 	0.64	| 	0.78	| 	
-| Recall	| 	≈ 0.9	| 	0.68	| 	0.68	| 	
-| F1-score	| 	≈ 0.72	| 	0.66	| 	0.73	| 	
-| average IoU	| 			| 42.80%	| 	57.06 %	| 	
+| Parameters	| Yolov5(100 epochs) 	| 	Yolov4-tiny()	| 	Yolov4 (3800 iterations only)		| Detectron 2		| Faster RCNN
+|-------|--------|---------|--------|---------|---------|
+| mAP@0.50		|  >0.85		| 0.6146	| 	0.72	| 		|  		| 
+| Precision	| 	≈  0.6	| 	0.64	| 	0.78	| 	 		| 
+| Recall	| 	≈ 0.9	| 	0.68	| 	0.68	| 	 		| 
+| F1-score	| 	≈ 0.72	| 	0.66	| 	0.73	|  		| 	
+| average IoU	| 			| 42.80%	| 	57.06 %	| 	 		| 
 
 
 #### 15th July 2020
