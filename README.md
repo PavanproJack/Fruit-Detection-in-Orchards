@@ -1,16 +1,27 @@
 # Fruit Detection in Orchards -- (Latest Updates go first)
 
+#### 22nd July 2020
+
+| Parameters	| Yolov5(100 epochs) 	| 	Yolov4-tiny()	| 	Yolov4 (3800 iterations only)		| Faster RCNN
+|-------|--------|---------|--------|---------|
+| mAP@0.50		|  >0.85		| 0.6146	| 	0.72	| 		| 
+| Precision	| 	≈  0.6	| 	0.64	| 	0.78	| 	
+| Recall	| 	≈ 0.9	| 	0.68	| 	0.68	| 	
+| F1-score	| 	≈ 0.72	| 	0.66	| 	0.73	| 	
+| average IoU	| 			| 42.80%	| 	57.06 %	| 	
+
+
 #### 15th July 2020
 ### Yolo-v5 with more training data.
 After 100 Epochs:
 
 <img src = "Yolov5/Aug_results/Results.png" width = "800">
 
-<img src = "Yolov5/Aug_results/metrics.png" width = "600">
+<img src = "Yolov5/Aug_results/metrics.png" width = "800">
 
-<img src = "Yolov5/Aug_results/train_results.png" width = "600">
+<img src = "Yolov5/Aug_results/train_results.png" width = "800">
 
-<img src = "Yolov5/Aug_results/val_results.png" width = "600">
+<img src = "Yolov5/Aug_results/val_results.png" width = "800">
 
 #### 15th July 2020
 ### Yolo-v4-tiny with Data Augmentation
