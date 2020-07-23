@@ -70,7 +70,7 @@ After 100 Epochs:
 
 After 6000 iteration mAP is around 62%
 
-<img src = "Yolov4-tiny models/Augmented-tiny/Yolo-v4-tiny-aug-16jul.png" width = "500"> <img src = "Yolov4-tiny/Augmented-tiny/Yolov4-tiny-aug-16jul-Chart.png" width = "400"> 
+<img src = "Yolov4-tiny models/Augmented-tiny/Yolo-v4-tiny-aug-16jul.png" width = "500"> <img src = "Yolov4-tiny models/Augmented-tiny/Yolov4-tiny-aug-16jul-Chart.png" width = "400"> 
 
 
 #### 15th July 2020
