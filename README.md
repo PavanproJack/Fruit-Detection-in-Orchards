@@ -57,20 +57,20 @@ Trained with Yolov5s architecture.
 ### Yolo-v5 with Data Augmentation
 After 100 Epochs:
 
-<img src = "Yolov5/Aug_results/Results.png" width = "800">
+<img src = "Yolov5 models/Aug_results/Results.png" width = "800">
 
-<img src = "Yolov5/Aug_results/metrics.png" width = "800">
+<img src = "Yolov5 models/Aug_results/metrics.png" width = "800">
 
-<img src = "Yolov5/Aug_results/train_results.png" width = "800">
+<img src = "Yolov5 models/Aug_results/train_results.png" width = "800">
 
-<img src = "Yolov5/Aug_results/val_results.png" width = "800">
+<img src = "Yolov5 models/Aug_results/val_results.png" width = "800">
 
 #### 15th July 2020
 ### Yolo-v4-tiny with Data Augmentation
 
 After 6000 iteration mAP is around 62%
 
-<img src = "Yolov4-tiny/Augmented-tiny/Yolo-v4-tiny-aug-16jul.png" width = "500"> <img src = "Yolov4-tiny/Augmented-tiny/Yolov4-tiny-aug-16jul-Chart.png" width = "400"> 
+<img src = "Yolov4-tiny models/Augmented-tiny/Yolo-v4-tiny-aug-16jul.png" width = "500"> <img src = "Yolov4-tiny/Augmented-tiny/Yolov4-tiny-aug-16jul-Chart.png" width = "400"> 
 
 
 #### 15th July 2020
