@@ -4,7 +4,7 @@
 
 ### Yolov4 and tiny training conditions:
 
-Train : Valid == 2064 : 191
+Train : Valid = 2064 : 191
 
 Epochs = 6000
 
@@ -28,6 +28,8 @@ Augmentation:
 
 Mangoes are annotated in YOLO v5 PyTorch format.
 
+Train : Valid : Test = 4125 : 296 : 197
+
 The following pre-processing was applied to each image:
 * Auto-orientation of pixel data (with EXIF-orientation stripping)
 * Resize to 416x416 (Stretch)
@@ -36,7 +38,7 @@ The following augmentation was applied to create 3 versions of each source image
 * Random rotation of between -15 and +15 degrees
 * Random shear of between -15° to +15° horizontally and -15° to +15° vertically
 
-#Train : #Valid : #Test == 4125 : 296 : 197
+
 
 #Epochs = 100
 
