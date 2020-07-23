@@ -4,13 +4,15 @@
 
 ### Yolov4 and tiny training conditions:
 
-Mangoes are annotated in YOLO v3 Darknet format.
+Train : Valid = 2064 : 191
 
-The following pre-processing was applied to each image:
+Epochs = 6000
+
+Pre-Processing:
 * Auto-orientation of pixel data (with EXIF-orientation stripping)
 * Resize to 416x416 (Stretch)
 
-The following augmentation was applied to create 3 versions of each source image:
+Augmentation:
 * 50% probability of horizontal flip
 * 50% probability of vertical flip
 * Random rotation of between -15 and +15 degrees
@@ -19,14 +21,14 @@ The following augmentation was applied to create 3 versions of each source image
 * Random exposure adjustment of between -27 and +27 percent
 * Salt and pepper noise was applied to 1 percent of pixels
 
-#Train : #Valid == 2064 : 191
 
-#Epochs = 6000
 
 
 ### Yolov5:
 
 Mangoes are annotated in YOLO v5 PyTorch format.
+
+Train : Valid : Test = 4125 : 296 : 197
 
 The following pre-processing was applied to each image:
 * Auto-orientation of pixel data (with EXIF-orientation stripping)
@@ -36,7 +38,7 @@ The following augmentation was applied to create 3 versions of each source image
 * Random rotation of between -15 and +15 degrees
 * Random shear of between -15° to +15° horizontally and -15° to +15° vertically
 
-#Train : #Valid : #Test == 4125 : 296 : 197
+
 
 #Epochs = 100
 
@@ -52,7 +54,7 @@ Trained with Yolov5s architecture.
 
 
 #### 15th July 2020
-### Yolo-v5 with more training data.
+### Yolo-v5 with Data Augmentation
 After 100 Epochs:
 
 <img src = "Yolov5/Aug_results/Results.png" width = "800">
