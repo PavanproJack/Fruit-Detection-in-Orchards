@@ -6,11 +6,11 @@ YoloV4 and V5 models are trained and tested under consistent conditions of augme
 ### YoloV4 and YoloV5 Training Conditions:
 Mangos are annotated in their respective formats which can be accessed from YoloV4 augmented Dataset and YoloV5 augmented Dataset folders.
 
-Pre-Processing:
+#### Pre-Processing:
 * Auto-orientation of pixel data  
 * Resizing to 416x416
 
-Augmentation:
+#### Augmentation:
 * 50% probability of horizontal flip
 * 50% probability of vertical flip
 * Random rotation of between -15 and +15 degrees
@@ -19,7 +19,7 @@ Augmentation:
 * Random exposure adjustment of between -27 and +27 percent
 * Salt and pepper noise was applied to 1 percent of pixels
 
-
+Here are the results obtained with their best weights.
 
 | Parameters	| Yolov4(6000 epochs) 	| 	Yolov5(300 epochs)	| 	Yolov4-tiny(6000 epochs)		| Detectron 2		| Faster RCNN
 |-------|--------|---------|--------|---------|---------|
@@ -31,10 +31,10 @@ Augmentation:
 
 
 
-#### 13th July 2020  References and Similar Work Results.
+### References and Similar Work Results.
 
 |Title	 |    Architectures Used |	Data Augmentation Techniques |	Evaluation of Detection Performance |	Graphs Plotted | Results   
 |-------|--------|---------|--------|---------| ---------|
-| Deep Fruit Detection in Orchards | Faster R-CNN |Tiling approach FR-CNN |	Image Flipping and Rescaling| 	Average Precision Response Area under Precision Recall Curve, F1-score	Avg.Precision vs  Number of Training images|	F1 score > 0.9; Precision = 0.958; Recall = 0.863|
+| Deep Fruit Detection in Orchards | Faster R-CNN |Image Flipping and Rescaling | Tiling approach FR-CNN	| 	Average Precision Response Area under Precision Recall Curve, F1-score	Avg.Precision vs  Number of Training images|	F1 score > 0.9; Precision = 0.958; Recall = 0.863|
 | Fast implementation of real-time fruit detection in apple orchards usingdeep learning | LedNet	|Two level scale amplification |	Average Precision Response, IoU, Precision, Recall|	Focal Loss and MSE functions vs Object confidence Score|	Recall = 0.821; Accuracy = 0.853|
 
