@@ -1,5 +1,11 @@
 # Fruit Detection in Orchards
 
+Detection Results:
+
+Yolov4 to the Left and Yolov5 to the Right
+
+<img src = "/Detection Results/v4_aug_new/egif.gif" width = "300">  <img src = "/Detection Results/v5_new_aug/egif.gif" width = "300"> 
+
 #### 29th July 2020
 
 YoloV4 and V5 models are trained and tested under consistent conditions of augmentations and pre-processing.
@@ -25,7 +31,7 @@ Here are the results obtained with their best weights.
 |-------|--------|---------|--------|---------|---------|
 | Precision	| 	0.76	| 	0.5676	| 	0.64	| 	 		| 
 | Recall	  | 	0.83	| 	0.8427	| 	0.68	| 	 		| 
-| F1-score	| 	0.80	| 	0.678	  | 	0.66	|  		| 
+| F1-score	| 	0.80	| 	0.678	  | 	0.66	|  		  | 
 | mAP@0.5 	|   0.82	|   0.791	  | 	0.6146	| 		|  		| 
 
 
