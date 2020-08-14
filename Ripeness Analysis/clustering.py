@@ -4,6 +4,7 @@ import matplotlib.pyplot as plt
 import os
 import glob
 
+
 path = "/Users/pavankumar/Documents/Robotics MSc/Dissertation/Fruit-Detection-in-Orchards/Ripeness Analysis/msk_ripen"
 
 os.chdir(path)
@@ -38,7 +39,7 @@ center = np.uint8(center)
 res = center[label.flatten()]
 result_image = res.reshape((img.shape))
 
-figure_size = 15
+figure_size = 15 
 
 plt.figure(figsize=(figure_size,figure_size))
 plt.subplot(1,2,1),plt.imshow(original_image)
