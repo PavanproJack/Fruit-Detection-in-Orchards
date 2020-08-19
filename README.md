@@ -1,5 +1,10 @@
 # Fruit Detection in Orchards
 
+#### Ripeness Analysis:
+<img src = "/Detection Results/masked.png" width = "400">  <img src = "/Detection Results/scatterplot.png" width = "450"> 
+
+<img src = "/Detection Results/analysis.png" width = "800">
+
 Detection Results:
 
 Yolov4 to the Left and Yolov5 to the Right
