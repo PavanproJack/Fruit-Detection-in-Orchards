@@ -2,9 +2,9 @@
 
 #### Ripeness Analysis:
 
-<img src = "/Detection Results/half_ripe_analysis.png" width = "400">
+<img src = "/Detection Results/half_ripe_analysis.png" width = "600">
 
-<img src = "/Detection Results/ripe_analysis.png" width = "400">
+<img src = "/Detection Results/ripe_analysis.png" width = "600">
 
 <img src = "/Detection Results/raw_analysis.png" width = "400">
 
