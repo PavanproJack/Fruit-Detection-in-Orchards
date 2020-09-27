@@ -1,9 +1,12 @@
 # Fruit Detection in Orchards
 
 #### Ripeness Analysis:
-<img src = "/Detection Results/masked.png" width = "400">  <img src = "/Detection Results/scatterplot.png" width = "450"> 
 
-<img src = "/Detection Results/analysis.png" width = "800">
+<img src = "/Detection Results/half_ripe_analysis.png" width = "800">
+
+<img src = "/Detection Results/ripe_analysis.png" width = "800">
+
+<img src = "/Detection Results/raw_analysis.png" width = "800">
 
 Detection Results:
 
