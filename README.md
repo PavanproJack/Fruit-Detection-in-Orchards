@@ -1,12 +1,5 @@
-# Fruit Detection in Orchards
+# Fruit Detection and Ripeness Analysis in Mango Orchards
 
-#### Ripeness Analysis:
-
-<img src = "/Detection Results/half_ripe_analysis.png" width = "600">
-
-<img src = "/Detection Results/ripe_analysis.png" width = "600">
-
-<img src = "/Detection Results/raw_analysis.png" width = "600">
 
 Detection Results:
 
@@ -51,4 +44,19 @@ Here are the results obtained with their best weights.
 |-------|--------|---------|--------|---------| ---------|
 | Deep Fruit Detection in Orchards | Faster R-CNN |Image Flipping and Rescaling | Tiling approach FR-CNN	| 	Average Precision Response Area under Precision Recall Curve, F1-score	Avg.Precision vs  Number of Training images|	F1 score > 0.9; Precision = 0.958; Recall = 0.863|
 | Fast implementation of real-time fruit detection in apple orchards usingdeep learning | LedNet	|Two level scale amplification |	Average Precision Response, IoU, Precision, Recall|	Focal Loss and MSE functions vs Object confidence Score|	Recall = 0.821; Accuracy = 0.853|
+
+
+#### Ripeness Analysis:
+
+<img src = "/Detection Results/half_ripe_analysis.png" width = "600">
+
+<img src = "/Detection Results/ripe_analysis.png" width = "600">
+
+<img src = "/Detection Results/raw_analysis.png" width = "600">
+
+
+
+
+
+
 
